@@ -1,0 +1,10 @@
+pactl set-sink-mute @DEFAULT_SINK@ 0
+pactl set-sink-volume @DEFAULT_SINK@ 60%
+nm-applet &
+clipit &
+cbatticon &
+radiotray &
+nitrogen --restore &
+picom --experimental-backends &
+slstatus &
+sleep 3 && volumeicon &
